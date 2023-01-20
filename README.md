@@ -1,12 +1,6 @@
-# Assignment 9: Reactjs Todo app
+# Reactjs Todo app
 
-| Name | NUID | Email|
-| ---------- | ---------- | ---------- |
-| SHENG-JUNG CHEN | 002981985 | chen.shengju@northeastern.edu |
-
-## Instructions
-
-Create a simple Todo react application using the REST APIs from Assignment 8. 
+Create a simple Todo react application using the Nodejs/Express REST API
 
 ## User Requirements:
 1. As a user, I should be able to see all to-do items fetched using a REST API.
@@ -18,16 +12,12 @@ Create a simple Todo react application using the REST APIs from Assignment 8.
 ## Technical Requirements:
 
 1. The goal of this assignment is to learn about Reactjs.
-2. Use fetch API to fetch data from the Nodejs server from assignment 7.
+2. Use fetch API to fetch data from the Nodejs server.
 3. You should use SCSS for CSS.
 4. You should use create-react-app for building the project.
-5. **No JavaScript libraries should be used for this assignment.**
-
-## Grading:
-1. Code documentation. (10 Points)
-2. .gitignore, README.md, and multiple Git commits (10 Points)
-3. Your UI should be composed of multiple components. (10 Points)
-4. Assignment completion. (70 Points)
+5. Use the express framework for developing the endpoints.
+6. Use MongoDB for the persistence layer.
+7. A todo object has id, title, description, createdDate, & lastModifiedDate properties.
 
 ## Instructions to Run Project:
 1. `npm init` in root directory
