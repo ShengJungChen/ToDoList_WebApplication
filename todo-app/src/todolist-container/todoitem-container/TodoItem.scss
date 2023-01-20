@@ -1,0 +1,27 @@
+div.display {
+  color: red;
+}
+
+div.ItemContainer{
+    padding:25px 5px 25px 25px;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    line-height: 50px;
+}
+
+button{
+    margin: 0px 12px 0px 0px;
+    padding: 0px 10px;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: 'Courier New';
+    background-color: #f7f0cb;
+}
+
+button:hover{
+  background-color: #f7f064;
+}
